@@ -1,5 +1,106 @@
 {
   "slices": {
-    "components": {}
+    "components": {
+      "hero": {
+        "library": "slices",
+        "id": "hero",
+        "name": "Hero",
+        "description": "Hero",
+        "model": {
+          "id": "hero",
+          "type": "SharedSlice",
+          "name": "Hero",
+          "description": "Hero",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Hero",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "Certificate of Mastery in Packaging",
+                    "allowTargetBlank": false,
+                    "single": "heading2"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "Generate growth by rapidly creating",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                },
+                "buttoncta": {
+                  "type": "Text",
+                  "config": {
+                    "label": "buttonCTA",
+                    "placeholder": ""
+                  }
+                },
+                "buttoncta_link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "buttonCTA_link",
+                    "placeholder": "",
+                    "select": null
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Evening",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Duis tempor anim ex excepteur mollit ad tempor in commodo duis. In laborum mollit proident labore ad proident elit.",
+                  "spans": []
+                }
+              ],
+              "buttoncta": "primitive",
+              "buttoncta_link": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              }
+            },
+            "slice_type": "hero"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/jamiechristian/Dev/prismic-tailwind-storybook/.slicemachine/assets/slices/Hero/default/preview.png",
+            "width": 800,
+            "height": 324
+          }
+        }
+      }
+    }
   }
 }

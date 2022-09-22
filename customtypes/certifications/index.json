@@ -1,0 +1,28 @@
+{
+  "id": "certifications",
+  "label": "certifications",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "name",
+          "placeholder": ""
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "hero": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

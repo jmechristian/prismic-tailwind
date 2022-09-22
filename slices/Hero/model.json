@@ -1,0 +1,52 @@
+{
+  "id": "hero",
+  "type": "SharedSlice",
+  "name": "Hero",
+  "description": "Hero",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Hero",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Certificate of Mastery in Packaging",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "Generate growth by rapidly creating",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "buttoncta": {
+          "type": "Text",
+          "config": {
+            "label": "buttonCTA",
+            "placeholder": ""
+          }
+        },
+        "buttoncta_link": {
+          "type": "Link",
+          "config": {
+            "label": "buttonCTA_link",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}
